@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00172f">
+  <title>Conócenos | Conocimiento de Sí Mismo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <link href="../styles/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/responsive.css">
+  <!-- Estilos propios de esta página -->
+  <link rel="stylesheet" href="../styles/conocenos.css">
+</head>
+
+<body>
+
+  <!-- =====================================================
+       NAVBAR (componente Bootstrap: navbar + collapse)
+       ===================================================== -->
+  <nav class="navbar navbar-expand-xl navbar-dark site-navbar fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand brand d-flex align-items-center gap-2" href="index.html#inicio"
+        aria-label="Conocimiento de Sí Mismo, inicio">
+        <span class="brand-mark"><i class="bi bi-flower1"></i></span>
+        <span class="brand-wordmark">CONOCIMIENTO<br><span>DE SÍ MISMO</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto align-items-xl-center">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="./conocenos.html">Conócenos</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#programas">Cursos</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#biblioteca">Biblioteca</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#eventos">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+        </ul>
+        <div class="nav-actions d-flex align-items-center gap-2 gap-lg-3">
+          <label class="language-select">
+            <i class="bi bi-globe2"></i>
+            <select aria-label="Seleccionar idioma">
+              <option>ES</option>
+              <option>EN</option>
+            </select>
+            <i class="bi bi-chevron-down small"></i>
+          </label>
+          <a href="#iniciar-sesion" class="btn btn-login">Iniciar sesión</a>
+          <a href="#registro" class="btn btn-gold btn-register">Registrarse</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="about-page">
+
+    <!-- =====================================================
+         1. ENCABEZADO + METODOLOGÍA
+         ===================================================== -->
+    <section class="about-hero" id="metodologia">
+      <div class="container">
+
+        <header class="text-center mx-auto about-hero-text">
+          <span class="section-kicker">METODOLOGÍA DE TRANSFORMACIÓN</span>
+          <h1 class="about-title">Un Camino Estructurado hacia la Realización del Ser</h1>
+          <p class="about-lead">Nuestra metodología equilibra la sabiduría ancestral con una estructura pedagógica
+            moderna para guiar al estudiante en su despertar interior.</p>
+        </header>
+
+        <div class="row g-4 mt-4 mt-lg-5">
+
+          <!-- Tarjeta 1: Auto-Observación (Bootstrap card) -->
+          <div class="col-lg-8">
+            <article class="card method-card h-100">
+              <div class="card-body p-4 p-lg-5">
+                <h2 class="card-title method-title">
+                  <i class="bi bi-eye me-2"></i>1. La Auto-Observación
+                </h2>
+                <p class="card-text method-text">La base de todo el trabajo es la atención dirigida hacia nuestro mundo
+                  interior. Aprenderemos a dividir la atención entre el observador y lo observado para descubrir la
+                  realidad de nuestra psicología.</p>
+
+                <ul class="list-unstyled diamond-list mb-0">
+                  <li>Separación del Yo: Identificación de procesos automáticos.</li>
+                  <li>El Momento Presente: La práctica del "Recuerdo de Sí".</li>
+                </ul>
+
+                <!-- Icono decorativo de fondo -->
+                <i class="bi bi-gear-wide-connected method-bg-icon" aria-hidden="true"></i>
+              </div>
+            </article>
+          </div>
+
+          <!-- Tarjeta 3: Práctica Diaria (card oscura) -->
+          <div class="col-lg-4">
+            <article class="card method-card method-card-dark h-100">
+              <div class="card-body p-4 d-flex flex-column">
+                <span class="method-icon-dark mb-3"><i class="bi bi-bullseye"></i></span>
+                <h2 class="card-title method-title-sm">3. Práctica Diaria</h2>
+                <p class="card-text method-text-dark">El conocimiento sin práctica es solo información. Cada lección
+                  incluye ejercicios prácticos de meditación, concentración y relajación para vivir la enseñanza.</p>
+                <a href="index.html#biblioteca" class="method-link mt-auto">
+                  Rutina de Ejercicios <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         2. ESTRUCTURA DE LAS 75 CONFERENCIAS (línea de tiempo)
+         ===================================================== -->
+    <section class="timeline-section" id="estructura">
+      <div class="container">
+
+        <header class="text-center mx-auto about-hero-text">
+          <h2 class="timeline-heading">2. Estructura de las 75 Conferencias</h2>
+          <p class="about-lead">Un viaje progresivo dividido en dos fases críticas para el desarrollo del
+            estudiante.</p>
+        </header>
+
+        <div class="timeline mt-5">
+
+          <!-- ---------- FASE A: texto a la izquierda, imagen a la derecha ---------- -->
+          <div class="row align-items-center timeline-item">
+            <div class="col-md-6 pe-md-5 text-md-end">
+              <div class="d-flex align-items-center gap-3 justify-content-md-end mb-3">
+                <h3 class="phase-title order-md-1 mb-0">Fase A: Fundamentos</h3>
+                <span class="phase-badge phase-badge-gold order-md-2">A</span>
+              </div>
+              <p class="phase-text">50 conferencias que establecen el marco teórico y práctico del conocimiento
+                interior. Desde el estudio del Ego hasta las Leyes del Universo.</p>
+              <div class="d-flex flex-wrap gap-2 justify-content-md-end">
+                <span class="badge rounded-pill topic-pill">Los Siete Centros</span>
+                <span class="badge rounded-pill topic-pill">Leyes de Karma</span>
+                <span class="badge rounded-pill topic-pill">Concentración</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 ps-md-5 mt-4 mt-md-0">
+              <!-- ============================================================
+                   IMAGEN FASE A
+                   Para agregarla: borra el <div class="img-slot-empty"> de abajo
+                   y descomenta la etiqueta <img>. Tamaño recomendado: 1200 x 675 px
+                   <img src="./img/fase-a.jpg" alt="Estudiantes en una biblioteca" class="img-fluid">
+                   ============================================================ -->
+              <div class="ratio ratio-16x9 timeline-photo">
+                <div class="img-slot-empty">
+                  <i class="bi bi-image"></i>
+                  <span>Imagen Fase A</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ---------- FASE B: imagen a la izquierda, texto a la derecha ---------- -->
+          <div class="row align-items-center timeline-item">
+            <div class="col-md-6 ps-md-5 order-md-2">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <span class="phase-badge phase-badge-navy">B</span>
+                <h3 class="phase-title mb-0">Fase B: Profundización</h3>
+              </div>
+              <p class="phase-text">25 conferencias avanzadas para quienes han asimilado la Fase A. Un estudio
+                profundo sobre la creación consciente y el servicio a la humanidad.</p>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge rounded-pill topic-pill">Alquimia Interior</span>
+                <span class="badge rounded-pill topic-pill">El Camino Crístico</span>
+                <span class="badge rounded-pill topic-pill">Muerte Psicológica</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 pe-md-5 order-md-1 mt-4 mt-md-0">
+              <!-- ============================================================
+                   IMAGEN FASE B
+                   Para agregarla: borra el <div class="img-slot-empty"> de abajo
+                   y descomenta la etiqueta <img>. Tamaño recomendado: 1200 x 675 px
+                   <img src="./img/fase-b.jpg" alt="Presentación de la metodología" class="img-fluid">
+                   ============================================================ -->
+              <div class="ratio ratio-16x9 timeline-photo">
+                <div class="img-slot-empty">
+                  <i class="bi bi-image"></i>
+                  <span>Imagen Fase B</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         3. CITA + CIFRAS
+         ===================================================== -->
+    <section class="quote-band">
+      <div class="container text-center">
+        <span class="quote-bar" aria-hidden="true"></span>
+        <blockquote class="quote-text mx-auto">
+          "El hombre se conoce a sí mismo solo en la medida en que conoce el mundo, y el mundo solo en la medida en
+          que se conoce a sí mismo."
+        </blockquote>
+        <p class="quote-author">— SABIDURÍA PERENNE</p>
+      </div>
+    </section>
+
+    <section class="figures-section">
+      <div class="container">
+        <div class="card figures-card">
+          <div class="card-body p-4 p-lg-5">
+            <div class="row g-4 text-center">
+
+              <div class="col-md-4">
+                <div class="figure-number figure-gold">50</div>
+                <div class="figure-label">Lecciones Iniciales</div>
+                <!-- Bootstrap progress -->
+                <div class="progress figure-progress" role="progressbar" aria-label="Lecciones iniciales"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bar-gold" style="width: 100%"></div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="figure-number figure-navy">25</div>
+                <div class="figure-label">Lecciones Avanzadas</div>
+                <div class="progress figure-progress" role="progressbar" aria-label="Lecciones avanzadas"
+                  aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bar-navy" style="width: 33%"></div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="figure-number figure-navy">∞</div>
+                <div class="figure-label">Práctica Continua</div>
+                <div class="progress figure-progress" role="progressbar" aria-label="Práctica continua"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bar-grey" style="width: 100%"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         CTA FINAL
+         ===================================================== -->
+    <section class="cta-banner" id="registro">
+      <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+        <div class="text-center text-md-start">
+          <h2>Empieza hoy tu camino hacia el conocimiento de ti mismo</h2>
+          <p>El momento más importante es ahora.</p>
+        </div>
+        <a href="#registro" class="btn btn-gold">Regístrate gratis <i class="bi bi-arrow-right ms-2"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+  <footer class="site-footer" id="contacto">
+    <div class="container">
+      <div class="row g-4 footer-main">
+        <div class="col-lg-3 col-md-6">
+          <a class="brand footer-brand d-inline-flex align-items-center gap-2 mb-3" href="index.html#inicio"><span
+              class="brand-mark"><i class="bi bi-flower1"></i></span><span
+              class="brand-wordmark">CONOCIMIENTO<br><span>DE SÍ MISMO</span></span></a>
+          <p class="footer-description">Plataforma internacional de conocimiento, autoobservación y desarrollo interior.
+          </p>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2">
+          <h2 class="footer-heading">ENLACES</h2><a href="index.html#inicio">Inicio</a><a
+            href="index.html#programas">Cursos</a><a href="index.html#biblioteca">Biblioteca</a><a
+            href="index.html#eventos">Eventos</a><a href="index.html#blog">Blog</a><a href="#contacto">Contacto</a>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2">
+          <h2 class="footer-heading">RECURSOS</h2><a href="index.html#biblioteca">Ejercicios</a><a
+            href="index.html#biblioteca">Videos y Conferencias</a><a href="index.html#biblioteca">Material
+            descargable</a><a href="#contacto">Preguntas frecuentes</a>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2">
+          <h2 class="footer-heading">IDIOMAS</h2><a href="#idioma">🇪🇸 Español</a><a href="#idioma">🇬🇧 English</a>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3">
+          <h2 class="footer-heading">SÍGUENOS</h2>
+          <div class="social-links"><a href="#redes" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a
+              href="#redes" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#redes"
+              aria-label="YouTube"><i class="bi bi-youtube"></i></a><a href="#redes" aria-label="TikTok"><i
+                class="bi bi-tiktok"></i></a><a href="#redes" aria-label="Telegram"><i class="bi bi-telegram"></i></a><a
+              href="#redes" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a></div>
+        </div>
+      </div>
+      <div class="copyright">© 2026 Conocimiento de Sí Mismo. Todos los derechos reservados.</div>
+    </div>
+  </footer>
+  <script src="../js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

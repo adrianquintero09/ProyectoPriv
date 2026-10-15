@@ -1,0 +1,203 @@
+/* ===== Estilos Exclusivos para la Página de Registro ===== */
+
+.register-hero {
+  position: relative;
+  min-height: calc(100vh - 66px);
+  margin-top: 66px;
+  background: var(--navy) url("../img/37c47e52-ddc2-406d-a7a8-6fd54a14428d.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  isolation: isolate;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    rgba(22, 78, 89, 0.98) 0%,
+    rgba(35, 103, 115, 0.91) 38%,
+    rgba(35, 103, 115, 0.45) 72%,
+    rgba(35, 103, 115, 0.02) 100%
+  ),
+  linear-gradient(0deg, rgba(22, 78, 89, 0.4), transparent 45%);
+}
+
+.register-container-wrapper {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.info-column {
+  color: #ffffff;
+}
+
+.info-column h1 {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 3.2vw, 2.35rem);
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.info-column h1 span {
+  display: block;
+  color: var(--gold);
+}
+
+.info-column p {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #f2f3f5;
+  margin-bottom: 15px;
+  max-width: 420px;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.feature-icon-circle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.feature-row span {
+  font-size: 11px;
+  color: #f8f9fa;
+}
+
+.register-card {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 35px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  max-width: 540px;
+  margin: auto;
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.register-header small {
+  display: block;
+  color: var(--gold);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.17em;
+  margin-bottom: 4px;
+}
+
+.register-header h2 {
+  font-family: var(--serif);
+  font-size: 20px;
+  color: var(--ink);
+  margin: 0 0 6px;
+}
+
+.register-header p {
+  font-size: 10px;
+  color: var(--muted);
+  margin: 0;
+}
+
+.register-card .form-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+
+.register-card .input-group-text {
+  background: #ffffff;
+  border-right: 0;
+  color: var(--muted);
+}
+
+.register-card .form-control {
+  font-size: 11px;
+  padding: 9px 12px;
+  border-left: 0;
+}
+
+.register-card .form-control:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
+
+.register-card .input-group:focus-within {
+  box-shadow: 0 0 0 0.2rem rgba(217, 184, 120, 0.25);
+  border-radius: 4px;
+}
+
+.register-card .input-group:focus-within .input-group-text,
+.register-card .input-group:focus-within .form-control {
+  border-color: var(--gold);
+}
+
+.register-card input[readonly] {
+  background-color: #fcfcfb !important;
+  color: var(--muted) !important;
+  border: 1px solid #e2e8f0 !important;
+  text-align: center;
+  font-style: italic;
+}
+
+.register-card .form-check-label {
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.register-card .form-check-input:checked {
+  background-color: var(--gold);
+  border-color: var(--gold);
+}
+
+.register-card .divider-center {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  background: var(--gold);
+  margin: 20px 0;
+}
+
+.register-card .divider-center span {
+  width: 7px;
+  height: 7px;
+  border: 1px solid var(--gold);
+  transform: rotate(45deg);
+  background: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: -3px;
+  margin-left: -3px;
+}
+
+.register-card .login-redirect {
+  text-align: center;
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 15px;
+}
+
+.register-card .login-redirect a {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: underline;
+}
